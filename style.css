@@ -1,0 +1,64 @@
+.background{
+    background-attachment: cover;
+    color: black;
+
+}
+.home-button{
+    width: 100px;
+    height: 40px;
+    background-color:rgba(255, 0, 0, 0.884) ;
+    border: none;
+    margin-top: 13px;
+    color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+.about-button{
+    width: 100px;
+    height: 40px;
+    margin-right:30px;
+    background-color:rgb(255, 0, 0) ;
+    border: none;
+    margin-top: 13px;
+    color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+.resume-button{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(255, 0, 0) ;
+    border: none;
+    margin-top: 13px;
+    color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.contact-button{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(255, 0, 0) ;
+    border: none;
+    margin-top: 13px;
+    color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
