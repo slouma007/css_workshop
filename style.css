@@ -1,16 +1,19 @@
 .background{
     background-attachment: cover;
     color: black;
+}
 
+@media screen and (max-width: 300px) {
 }
 .home-button{
     width: 100px;
     height: 40px;
-    background-color:rgba(255, 0, 0, 0.884) ;
+    background-color:rgba(9, 9, 233, 0.877);
     border: none;
     margin-top: 13px;
     color: white;
-    margin-right: 15px;
+    margin-right: 40px;
+    margin-left: 70px;
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -22,11 +25,12 @@
     width: 100px;
     height: 40px;
     margin-right:30px;
-    background-color:rgb(255, 0, 0) ;
+    background-color:rgba(9, 9, 233, 0.877);
     border: none;
     margin-top: 13px;
     color: white;
-    margin-right: 15px;
+    margin-right: 70px;
+    margin-left: 90px;
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -37,13 +41,13 @@
 .resume-button{
     width: 100px;
     height: 40px;
-    background-color:rgb(255, 0, 0) ;
+    background-color:rgba(9, 9, 233, 0.877);
     border: none;
     margin-top: 13px;
     color: white;
-    margin-right: 15px;
+    margin-right: 80px;
+    margin-left: 60px;
     font-size: 15px;
-    border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: 0.2s ease;
     cursor: pointer;
@@ -51,14 +55,58 @@
 .contact-button{
     width: 100px;
     height: 40px;
-    background-color:rgb(255, 0, 0) ;
+    background-color: rgba(9, 9, 233, 0.877);
     border: none;
     margin-top: 13px;
+    margin-left: 70px;
+    margin-right: 80px;
     color: white;
     margin-right: 15px;
+    margin-left: 40px;
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: 0.2s ease;
+    cursor: pointer;
+}
+.tit{
+    font-family: italic;
+    font-size: 40px;
+    border-style:solid;
+    border-radius: 30px;
+    border-color: rgba(9, 9, 233, 0.877);
+    border-width: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 39%;
+    margin-top:20px;
+}
+.par{
+    background-color: rgb(13, 87, 199);
+    font-size: 25px;
+    font-family: italic;
+    color: aliceblue;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+    background-color: rgba(13, 87, 199);
+}
+.img2{
+    margin-left: 630px;
+    width: 400px;
+    height: 250px;
+}
+.clo{
+    padding-top: 20px;
+    
+}
+.int{
+    background-color: aqua;
+    font-family: inherit;
+    font-size: medium;
+    box-sizing: border-box;
+    border: 25px;
     cursor: pointer;
 }
